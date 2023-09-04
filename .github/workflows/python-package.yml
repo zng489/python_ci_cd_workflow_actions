@@ -10,7 +10,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  scrape-latest:
+  build:
     runs-on: ubuntu-latest
 
     steps:
