@@ -7,7 +7,6 @@
 # documentation.
 
 on: 
-
   push: 
 
     branches: [ main ] 
