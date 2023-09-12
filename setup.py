@@ -1,18 +1,3 @@
-# python_ci_cd_workflow_actions
-
-# ['python setup.py install', 'python setup.cfg install', 'pyproject.toml']
-# pip install pipreqs
-# python -m pipreqs.pipreqs
-
-name: finnhub
-email: zng489@hotmail.com
-password: finnhub
-
-API Key: cjvqj3pr01qjaspch750cjvqj3pr01qjaspch75g
-
--------------------------------
-setu.py
-
 from setuptools import setup, find_packages
 
 setup(
@@ -28,4 +13,4 @@ setup(
         'python-dotenv',
         # other packages your project depends on
     ],
-)-------------------------------------
+)
