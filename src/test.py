@@ -55,7 +55,6 @@ def printing():
 if __name__ == '__main__':
     printing()
 
-
 api_key = os.getenv('API_KEY')
 
 
