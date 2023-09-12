@@ -50,13 +50,10 @@ from mypackage.package_1 import reading_json_file
 
 def printing():
     logging.warning('Watch out!')
-    return reading_json_file('././data/data.json')
+    return reading_json_file('./data/data.json')
 
 if __name__ == '__main__':
-    printing()
-
-api_key = os.getenv('API_KEY')
-
-
-print(api_key)
-print(os.environ['local_development'])
+    print(printing())
+    api_key = os.getenv('API_KEY')
+    print(api_key)
+    print(os.environ['local_development'])
