@@ -11,7 +11,7 @@ password: finnhub
 API Key: cjvqj3pr01qjaspch750cjvqj3pr01qjaspch75g
 
 -------------------------------
-setu.py
+python_ci_cd_workflow_actions/setu.py
 
 from setuptools import setup, find_packages
 
